@@ -1,0 +1,27 @@
+About Flickeyboard.
+
+Flickeyboard is a replacement for the standard iOS keyboard. The resons for developing Flickeyboard, and its basic operation, are set out in http://rosscarter.com/2010/320.html
+
+This project includes a sample app that shows how to use a Flickeyboard with a standard UITextView.
+
+To do: 
+
+Cursor and select positions should be swapped (to avoid outward flicks on edge keys).
+
+Selections are not drawn.
+
+Need graphics for cmd, backspace, return, hide. Select key needs blue selection points instead of "select". 
+
+Cut, copy, paste don't work.
+
+Key gradients differ from standard keyboard.
+
+Visual and audio feedback on taps; swipes should show gradient, maybe. 
+
+Limit max distance for a swipe. 
+
+Add one-hand layout, portrait.
+
+Implement Caps Lock: two-finger downward swipe toggles mode; keys are redrawn with upper and lower case glyphs swapped. (This allows typing the occasional lowercase character while in Caps Lock mode.)
+
+Tap and Hold on a key could trigger a menu of diacritical marks to add to the character.
